@@ -15,6 +15,7 @@ const ItemShow = (props) => {
             {item?.productName[2]}
           </span>
         </div>
+
         <div className="right">
           <h3>{item.quantity}</h3>
           <h3>{item.price}</h3>
